@@ -14,4 +14,6 @@ int main( void )
 	end = (end_min) / 60 * MTH + end_min % 60;
 	
 	printf("%d\n", end);
+	
+	return 0;
 }
