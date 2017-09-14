@@ -21,7 +21,7 @@ int main ()
 //answer
 ElementType Average( ElementType S[], int N )
 {
-	double sum = 0.0, avg = 0.0;
+	ElementType sum = 0.0, avg = 0.0;
 	int i = 0;
 	
 	for( i = 0; i < N; i++ )
