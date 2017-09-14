@@ -9,4 +9,6 @@ int main(void)
 	foot = length / 30.48;
 	inch = ((double)length/30.48 - foot)*12;
 	printf("%d %d", foot, inch);
+	
+	return 0;
 } 
