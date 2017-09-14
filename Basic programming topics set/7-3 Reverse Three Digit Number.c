@@ -15,5 +15,8 @@ int main( void )
 	
 	r = a[0] * 100 + a[1] * 10 + a[2];
 	
-	printf("%d\n", r); 
+	printf("%d\n", r);
+	
+	
+	return 0;
 }
