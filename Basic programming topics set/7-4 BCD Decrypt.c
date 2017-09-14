@@ -8,5 +8,8 @@ int main(void)
 	
 	out = in / 256 * 100 + in / 16 * 10 + in % 16;
 	
-	printf("%d\n", out);	
+	printf("%d\n", out);
+	
+	
+	return 0;
 } 
