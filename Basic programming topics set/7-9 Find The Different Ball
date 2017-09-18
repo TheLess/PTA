@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int a, b, c;
+	char r;
+	scanf("%d %d %d", &a, &b, &c);
+	
+	if(a == b)
+	{
+		r = 'C';
+	}
+	else if(b == c)
+	{
+		r = 'A';
+	}
+	else
+	{
+		r = 'B';
+	} 
+	
+	printf("%c\n", r);
+	
+	return 0;
+}
